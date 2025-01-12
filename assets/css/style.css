@@ -1,0 +1,8 @@
+.nav-link.active {
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 40px;
+}
+.nav-link:hover {
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 40px;
+}
