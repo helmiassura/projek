@@ -139,8 +139,8 @@
     </div>
     <!-- /.content-header -->
     <!-- Main content -->
-<section class="content">
-      <div class="container mt-5">
+    <section class="content">
+    <div class="container mt-5">
         <h1 class="text-center mb-4">Produk Terbaru</h1>
         <div class="row">
             <div class="col-md-4 mb-4">
@@ -149,6 +149,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Baju Casual</h5>
                         <p class="card-text">Rp150,000</p>
+                        <a href="#" class="btn btn-primary w-100">Beli Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -158,6 +159,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Kemeja</h5>
                         <p class="card-text">Rp200,000</p>
+                        <a href="#" class="btn btn-primary w-100">Beli Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -167,12 +169,13 @@
                     <div class="card-body">
                         <h5 class="card-title">Hoodie</h5>
                         <p class="card-text">Rp645,000</p>
+                        <a href="#" class="btn btn-primary w-100">Beli Sekarang</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </section>
+</section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
