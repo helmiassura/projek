@@ -5,4 +5,65 @@
 .nav-link:hover {
     border-top-left-radius: 35px;
     border-bottom-right-radius: 40px;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 40px;
 }
+.nav-link:hover {
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 40px;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f9fa;
+}
+.product-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+    height: 400px;  
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+
+.card-custom {
+	background: linear-gradient(to bottom, #0084ff, white);
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 100px;
+}
+h3 {
+	color: black;
+	font-weight: bold;
+}
+
+
+

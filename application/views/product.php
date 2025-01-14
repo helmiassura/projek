@@ -9,6 +9,7 @@
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
@@ -29,25 +30,6 @@
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <link rel="stylesheet" href="<?=base_url()?>/assets/css/style.css">
-  <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-        }
-        .product-card {
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .product-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .product-img {
-            height: auto;
-            width: 100%;
-            object-fit: cover;
-        }
-        
-    </style>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 
@@ -154,8 +136,8 @@
     </div>
     <!-- /.content-header -->
     <!-- Main content -->
-<section class="content">
-      <div class="container mt-5">
+    <section class="content">
+    <div class="container mt-5">
         <h1 class="text-center mb-4">Produk Terbaru</h1>
         <div class="row">
             <div class="col-md-4 mb-4">
@@ -164,6 +146,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Baju Casual</h5>
                         <p class="card-text">Rp150,000</p>
+                        <a href="#" class="btn btn-primary w-100">Beli Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -173,6 +156,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Kemeja</h5>
                         <p class="card-text">Rp200,000</p>
+                        <a href="#" class="btn btn-primary w-100">Beli Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -182,12 +166,14 @@
                     <div class="card-body">
                         <h5 class="card-title">Hoodie</h5>
                         <p class="card-text">Rp645,000</p>
+                        <a href="#" class="btn btn-primary w-100">Beli Sekarang</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </section>
+</section>
+
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

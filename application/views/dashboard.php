@@ -29,36 +29,7 @@
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   <script src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <link rel="stylesheet" href="<?=base_url()?>/assets/css/style.css">
-  <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-        }
-        .product-card {
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .product-card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .product-img {
-            height: auto;
-            width: 100%;
-            object-fit: cover;
-        }
-        .card-custom {
-            background: linear-gradient(to bottom, #0084ff, white);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            margin-top: 100px;
-        }
-        h3 {
-            color:black;
-            font-weight: bold;
-        }
-    </style>
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 
@@ -122,8 +93,9 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+
+
+        <li class="nav-header" style="color: grey;">MAIN NAVIGATION</li>
           <li class="nav-item menu-open">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
